@@ -1,0 +1,28 @@
+@import '../../../scss/index.scss';
+
+#content-header{
+    background-color: white;
+    height: 150px;
+
+    h2{
+        color: $text-dark;
+        margin-top: 3rem;
+    }
+
+    img{
+        width: 130px;
+        height: 130px;
+        margin-left: 20px;
+    }
+}
+
+#center-menu{
+    width: 50%;
+    left: 25%;
+    top: 3rem;
+    position: absolute;
+    justify-content: center;
+    font-size: 25px;
+    font-family: bold;
+}
+
